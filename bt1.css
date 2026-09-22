@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-header {
+    background: linear-gradient(135deg, #2b96a6, #78d0c8);
+    padding: 40px 40px 60px 40px;
+    color: #fff;
+    position: relative;
+}
+
+.profile-header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.profile-header h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.avatar-container {
+    position: absolute;
+    bottom: -40px;
+    right: 50px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-nav {
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    width: fit-content;
+    position: relative;
+    top: -10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #e0f2f1;
+    color: #2b96a6;
+}
+
+.main-nav a.active {
+    background-color: #c8e6c9;
+    color: #2b96a6;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px 40px 40px 40px;
+    gap: 30px;
+    background-color: #f8f9fa;
+}
+
+.content-box {
+    flex: 1;
+}
+
+.content-box h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.gioi-thieu p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.ky-nang ul {
+    list-style: none;
+}
+
+.ky-nang li {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.ky-nang li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #2b96a6;
+    font-weight: bold;
+}
+
+.lien-he address {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-style: normal;
+}
+
+.lien-he address strong {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.lien-he address .icon {
+    margin-right: 8px;
+    color: #2b96a6;
+}
+
+.lien-he address br {
+    margin-bottom: 8px;
+    display: block;
+    content: "";
+}
+
+footer {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
+
+.logo-footer {
+    margin-top: 10px;
+    color: #2b96a6;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

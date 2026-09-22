@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #0088cc, #00b4d8, #2ec4b6);
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+nav {
+    background-color: #eef2f5;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 6px 16px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+nav a.active {
+    background-color: #0077b6;
+    color: white;
+}
+
+main {
+    max-width: 950px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+article {
+    flex: 3;
+    background-color: #e2f0d9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+article header {
+    background: none;
+    color: inherit;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+article hgroup h2 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #111;
+}
+
+article hgroup p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    font-style: normal;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+article footer {
+    background: none;
+    color: #333;
+    text-align: left;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #c8e0b8;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    align-self: flex-start;
+}
+
+aside h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #222;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    display: block;
+}
+
+aside ul li a:hover {
+    color: #0077b6;
+}
+
+body > footer {
+    background-color: #dbe7f2;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #222;
+    margin-top: 30px;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.5;
+}
